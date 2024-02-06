@@ -269,7 +269,7 @@ main .left-section .main-txt span {
 
 #about .cards .card .paragraph p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 27px;
   color: #252b33;
   margin: auto;
@@ -294,7 +294,6 @@ main .left-section .main-txt span {
 
 #app .right {
   position: relative;
-  /* width: 50%; */
 }
 
 #app .right .img1 img {
@@ -304,10 +303,9 @@ main .left-section .main-txt span {
 
 #app .right .img1 {
   position: absolute;
-}
-
-#app .right .img2 {
-  position: relative;
+  z-index: 99;
+  bottom: 15px;
+  left: -100px;
 }
 
 #app .right .img2 img {
